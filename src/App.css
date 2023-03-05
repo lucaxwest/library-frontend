@@ -1,0 +1,15 @@
+.Form {
+  width: 30%;
+  text-align: center;
+  margin: 0 auto;  
+}
+
+.button-salvar {
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+Table {
+  margin: 0 auto !important;
+  width: 100% !important;
+}

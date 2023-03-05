@@ -1,0 +1,31 @@
+.Form {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.label {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+}
+
+.button-cadastrar {
+    width: 100%;
+    margin-bottom: 20%;
+}
+
+Table {
+    margin: 0 auto !important;
+    width: 70% !important;
+}
+
+.tr {
+    background-color: rgba(0, 0, 0, 0.932);
+    color: #fff;
+}
+
+.tr, .td {
+    text-align: center !important;
+}
