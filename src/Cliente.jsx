@@ -9,6 +9,8 @@ function App() {
   const [clienteId, setClienteId] = useState('')
   const [cpf, setCpf] = useState('')
 
+  console.log(clientes)
+
   useEffect(() => {
     getClientes()
   }, [])
@@ -16,7 +18,7 @@ function App() {
   async function cadastrarCliente() {
     const client = {
       clienteId,
-      cpf: parseInt()
+      cpf
     }
 
     await api
@@ -39,11 +41,10 @@ function App() {
     <div className="container">
       <Form className="Form">
 
-          <Form.Label className='label mt-4'>Cadastrar Cliente</Form.Label>
+        <Form.Label className='label mt-4'>Cadastrar Cliente</Form.Label>
 
         <InputGroup className="mb-1 mt-3" >
           <Form.Control
-            type="text"
             placeholder="Nome"
             value={clienteId}
             onChange={(e) => {
